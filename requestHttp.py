@@ -3,6 +3,7 @@ __author__ = "longqiuhong"
 import requests
 from requests import exceptions
 
+
 def getHttp(url,params=''):
     try:
         headers = getHeaders()
